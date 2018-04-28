@@ -1,0 +1,24 @@
+From 1521ef64c4a6af38a58e9a755b06255f128e917f Mon Sep 17 00:00:00 2001
+From: Chandnani <evrgr888yash@gmail.com>
+Date: Sun, 4 Mar 2018 19:36:36 +0530
+Subject: [PATCH] Instruction 30
+
+---
+ hello.c | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/hello.c b/hello.c
+index 407d303..f61f991 100644
+--- a/hello.c
++++ b/hello.c
+@@ -2,6 +2,7 @@
+ void microkernel_sendmsg(char *);
+ void main(){
+ 	printf("Helloworld!\n");
++	printf("Helloworld!\n");
+ printf("This must be a monolithic design\n");
+ 	microkernel_sendmsg("is more portable");
+ }
+-- 
+2.7.4
+

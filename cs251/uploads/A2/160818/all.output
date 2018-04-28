@@ -1,0 +1,53 @@
+Output for file bidirection-multi-rexmit.txt
+----------------------------------
+Connection(A=172.27.17.201:7656 B=192.168.122.239:42486)
+A-->B #packets=117, #datapackets=0, #bytes=0, #retrans=0 xput=0 bytes/sec
+B-->A #packets=98, #datapackets=94, #bytes=3724672, #retrans=0 xput=120243801 bytes/sec
+Connection(A=192.168.122.1:60373 B=192.168.122.239:9801)
+A-->B #packets=4898, #datapackets=4895, #bytes=11568888, #retrans=1088896 xput=174205 bytes/sec
+B-->A #packets=4486, #datapackets=0, #bytes=0, #retrans=0 xput=0 bytes/sec
+Connection(A=192.168.122.239:9801 B=192.168.122.1:60374)
+A-->B #packets=4542, #datapackets=0, #bytes=0, #retrans=0 xput=0 bytes/sec
+B-->A #packets=4953, #datapackets=4950, #bytes=11564544, #retrans=1080208 xput=183033 bytes/sec
+Connection(A=192.168.122.239:42484 B=172.27.17.201:7656)
+A-->B #packets=73, #datapackets=69, #bytes=3103928, #retrans=0 xput=99930073 bytes/sec
+B-->A #packets=96, #datapackets=0, #bytes=0, #retrans=0 xput=0 bytes/sec
+
+
+Output for file bidirection-multi.txt
+----------------------------------
+Connection(A=192.168.122.1:60368 B=192.168.122.239:9801)
+A-->B #packets=3752, #datapackets=3749, #bytes=10485784, #retrans=0 xput=825226 bytes/sec
+B-->A #packets=3714, #datapackets=0, #bytes=0, #retrans=0 xput=0 bytes/sec
+Connection(A=192.168.122.239:42482 B=172.27.17.201:7656)
+A-->B #packets=131, #datapackets=127, #bytes=4998632, #retrans=0 xput=241596520 bytes/sec
+B-->A #packets=176, #datapackets=0, #bytes=0, #retrans=0 xput=0 bytes/sec
+Connection(A=192.168.122.239:42480 B=172.27.17.201:7656)
+A-->B #packets=124, #datapackets=120, #bytes=4492000, #retrans=0 xput=207895589 bytes/sec
+B-->A #packets=158, #datapackets=0, #bytes=0, #retrans=0 xput=0 bytes/sec
+Connection(A=192.168.122.239:9801 B=192.168.122.1:60367)
+A-->B #packets=3694, #datapackets=0, #bytes=0, #retrans=0 xput=0 bytes/sec
+B-->A #packets=3755, #datapackets=3751, #bytes=10485784, #retrans=0 xput=1747910 bytes/sec
+
+
+Output for file one-bi-rexmit.txt
+----------------------------------
+Connection(A=192.168.122.1:41209 B=192.168.122.239:8080)
+A-->B #packets=1241, #datapackets=768, #bytes=1641787, #retrans=124528 xput=67719 bytes/sec
+B-->A #packets=1535, #datapackets=1118, #bytes=1706917, #retrans=0 xput=76356 bytes/sec or 76185 bytes/sec
+
+
+Output for file one-bi.txt
+----------------------------------
+Connection(A=172.27.17.201:8080 B=192.168.122.239:35366)
+A-->B #packets=671, #datapackets=623, #bytes=1706917, #retrans=0 xput=1107955 bytes/sec or 1107877 bytes/sec 
+B-->A #packets=706, #datapackets=108, #bytes=1517259, #retrans=0 xput=984779 bytes/sec 
+
+
+Output for file one-uni.txt
+----------------------------------
+Connection(A=192.168.122.239:9801 B=192.168.122.1:60343)
+A-->B #packets=358, #datapackets=0, #bytes=0, #retrans=0 xput=0 bytes/sec
+B-->A #packets=366, #datapackets=362, #bytes=1048600, #retrans=0 xput=975343 bytes/sec
+
+
